@@ -1,6 +1,6 @@
 {
-  "name": "s3mini",
-  "version": "0.6.0",
+  "name": "@steebchen/s3mini",
+  "version": "0.7.0",
   "description": "👶 Tiny & fast S3 client for node and edge computing platforms",
   "homepage": "https://github.com/good-lly/s3mini",
   "bugs": {
@@ -12,7 +12,8 @@
     "url": "git+https://github.com/good-lly/s3mini.git"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "files": [
     "./dist/",
